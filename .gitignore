@@ -1,3 +1,25 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+env/
+venv/
+*.sqlite3
+
+
+# Output folders
+static_outputs/
+dist/
+build/
+
+# Git
+*.swp
+*.lock
+
+env/data/tracking1.csv
+=======
 # Ignore only parts of env that are virtual env stuff
 env/Include/
 env/Lib/
@@ -24,3 +46,4 @@ Thumbs.db
 # Build
 dist/
 build/
+
