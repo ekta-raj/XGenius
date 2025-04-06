@@ -1,0 +1,264 @@
+.match-page {
+    background-color: #b20000;
+    color: white;
+    min-height: 100vh;
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    position: relative;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    color: #b20000;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .field-layout {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 20px;
+    border: 2px solid white;
+    background-color: green;
+    border-radius: 12px;
+  }
+  
+  .team-col {
+    width: 17%;
+    text-align: left;
+  }
+  
+  .team-col.left {
+    padding-left: 40px;
+  }
+  
+  .team-col.right {
+    padding-right: 20px;
+  }
+  
+  .pitch {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .circle {
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+  
+  .vs-label {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .logos {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 700px;
+  }
+  
+  .logos img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .popup {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    border-radius: 12px;
+    border: 2px solid #b20000;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 999;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .popup-content h4 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  .close-button {
+    margin-top: 15px;
+    padding: 6px 12px;
+    background-color: #b20000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  li {
+    cursor: pointer;
+  }
+
+  .visual-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .visual-block {
+    width: 40%;
+    text-align: center;
+  }
+  
+  .visual-block img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  
+  .caption {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 15px;
+  }
+  
+  .comparison-section {
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .comparison-graph {
+    width: 40%;
+    border-radius: 10px;
+    border: 2px solid white;
+  }
+  
+  .comparison-text {
+    width: 40%;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .interactive-section {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .interactive-section h3 {
+    color: white;
+  }
+  
+  .interactive-section .caption {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  .heatmaps {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .heatmap {
+    max-width: 45%;
+    text-align: center;
+  }
+  
+  .heatmap img {
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  
+  .caption {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #f0f0f0;
+  }
+
+  .oris-comparison {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .oris-plot {
+    max-width: 45%;
+    text-align: center;
+  }
+  
+  .oris-plot img {
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+
+  .formation-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+  }
+  
+  .formation-image img {
+    width: 800px; /* Or whatever fits best visually */
+    max-width: 90%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .graph-section {
+    padding: 40px;
+    background-color: #fff;
+    color: #111;
+    margin-top: 60px;
+    border-radius: 12px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .graph-section h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    color: #b20000;
+    text-align: center;
+  }
+  
+  .graph-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  

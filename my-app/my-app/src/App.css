@@ -60,4 +60,40 @@
   font-size: 1rem;
   width: 250px;
 }
+.input-group select {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  width: 280px;
+  text-align: center;
+}
 
+/* 👇 New style for second page */
+.second-page {
+  background-color: #b20000; /* Red like your PNG */
+  color: white;
+  height: 100vh;
+  padding: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: white;
+  color: #b20000;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.back-button:hover {
+  background-color: #f1f1f1;
+}
