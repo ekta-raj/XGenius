@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+env/
+venv/
+*.sqlite3
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Jupyter/Notebook
+.ipynb_checkpoints/
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+*.log
+
+# Output folders
+static_outputs/
+dist/
+build/
+
+# Git
+*.swp
+*.lock
+
+env/data/tracking1.csv
