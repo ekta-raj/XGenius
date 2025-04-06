@@ -1,3 +1,4 @@
+
 # Python
 __pycache__/
 *.py[cod]
@@ -7,20 +8,6 @@ env/
 venv/
 *.sqlite3
 
-# VSCode
-.vscode/
-*.code-workspace
-
-# Jupyter/Notebook
-.ipynb_checkpoints/
-
-# Mac / Windows system files
-.DS_Store
-Thumbs.db
-
-# Node.js
-node_modules/
-*.log
 
 # Output folders
 static_outputs/
@@ -32,3 +19,31 @@ build/
 *.lock
 
 env/data/tracking1.csv
+=======
+# Ignore only parts of env that are virtual env stuff
+env/Include/
+env/Lib/
+env/Scripts/
+env/node_modules/
+env/pyvenv.cfg
+
+# Common
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+
+# System
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Notebook
+.ipynb_checkpoints/
+
+# Build
+dist/
+build/
+
